@@ -194,7 +194,7 @@ class ImageSlider @JvmOverloads constructor(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
-            params.setMargins(8, 0, 8, 0)
+            params.setMargins(8, 8, 8, 8)
             pagerDots!!.addView(dots!![i], params)
         }
         dots!![0]!!.setImageDrawable(ContextCompat.getDrawable(context, selectedDot))
